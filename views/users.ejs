@@ -1,0 +1,8 @@
+<%- include partials/header.ejs %>
+    <h1><%= title %></h1>
+    <u1>
+        <% for (var i = 0; i < users.length; i++) { %>
+          <li> <%= users[i] %> </li>
+        <% } %>
+    </u1>
+<%- include partials/footer.ejs %>
